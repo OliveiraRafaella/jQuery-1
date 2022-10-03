@@ -1,9 +1,22 @@
 /***********AULA5*************SELETORES DE FORMULARIO************* */
 
 $(document).ready(function(){
-    //$("a[name=menu]") // valor para o atributo
-    //$("a[name=menu]") // atributo
-    //$("a[href*=min]") //procura o atributo que contem palavra min
-    $("a[href$=js]") //busca elemento que termine com o valor 
-    .css("background", "#ccc");
+    //$(":input").css("border","3px solid #FF0000")
+
+    $(":button").click(function(){
+        //$(":password").css("border","3px solid #FF0000");
+        //$(":radio").parent().css("border","3px solid #FF0000");
+        //$(":checkbox").parent().css("border","3px solid #FF0000");
+        //$("select").css("border","3px solid #FF0000");
+        //$("textarea").css("border","3px solid #FF0000");
+        //$(":submit").css("border","3px solid #FF0000");
+        //elemrntos habilitados
+        //$(":enabled").css("border","3px solid #FF0000");
+        //$(":disabled").css("border","3px solid #FF0000");
+        $(":checked").parent().css("border","3px solid #FF0000");
+
+        
+    });
+
+    
 });
