@@ -1,4 +1,4 @@
-/***********AULA5*************MANIPULAÇÃO DOM INSERIR NA ARVORE************* */
+/***********AULA5*************MANIPULAÇÃO DOM REMOVER NA ARVORE************* */
 
 $(document).ready(function(){
     $("span").click(function(){
